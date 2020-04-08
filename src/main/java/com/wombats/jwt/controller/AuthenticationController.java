@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping(value = "/v1/demo")
-public class AutheticationController {
+public class AuthenticationController {
 
     private final JwtService jwtService;
 
