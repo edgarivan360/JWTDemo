@@ -11,10 +11,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @SpringBootApplication
-public class JWTDemoApplication {
+public class JwtDemoApplication {
 
     public static void main( String[] args ) {
-        SpringApplication.run(JWTDemoApplication.class, args);
+        SpringApplication.run(JwtDemoApplication.class, args);
     }
 
     @EnableWebSecurity
